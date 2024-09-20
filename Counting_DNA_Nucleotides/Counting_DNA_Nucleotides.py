@@ -18,10 +18,11 @@ def count_nucleotides(nucleotide_count, DNA_String):
 def main():
 
     DNA_String_1 = open("Counting_DNA_Nucleotides/rosalind_dna.txt").read()
-
+    
     nucleotide_count_1 = nucleotide_string_count(0 ,0, 0, 0)
 
     nucleotide_count_1 = count_nucleotides(nucleotide_count_1, DNA_String_1)
+
 
     print(nucleotide_count_1.A, nucleotide_count_1.C, nucleotide_count_1.G, nucleotide_count_1.T)
 

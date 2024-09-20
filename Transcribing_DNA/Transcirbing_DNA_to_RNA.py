@@ -9,6 +9,7 @@ def Transcribe(DNA_String, RNA_String):
     RNA_String.string = DNA_String.replace("T","U")
 
     return RNA_String
+
 def main():
 
     DNA_String_1 = open("Transcribing_DNA/rosalind_rna.txt").read()
