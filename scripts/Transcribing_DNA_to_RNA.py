@@ -12,7 +12,7 @@ def Transcribe(DNA_String, RNA_String):
 
 def main():
 
-    DNA_String_1 = open("Transcribing_DNA/rosalind_rna.txt").read()
+    DNA_String_1 = open("data/rosalind_rna.txt").read()
     RNA_String_1 = RNA_String_object("") 
     RNA_String_1 = Transcribe(DNA_String_1, RNA_String_1)
     print(RNA_String_1.string)
