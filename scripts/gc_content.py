@@ -7,7 +7,7 @@ class fasta_string:
 def create_sequence_list(file):
         sequence_list = list()
         for sequence in file:
-            #This will fail if the fasta file # is different from 4. Needs a different method to detect the name. i.e. get string
+            #This will fail if the fasta file # is different from 4 (all rosalind problems are 4). To generalize Needs a different method to detect the name. i.e. get string
             # first occurence of /n
             sequence_name = sequence[0:13]
             #print(sequence_name)
